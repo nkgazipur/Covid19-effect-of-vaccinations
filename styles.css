@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#dropdown-box {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}

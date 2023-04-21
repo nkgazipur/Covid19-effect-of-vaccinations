@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://jsuites.net/v4/jsuites.js"></script>
+  <link rel="stylesheet" href="https://jsuites.net/v4/jsuites.css" type="text/css" />
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.3.2/spin.min.js'></script> 
+  <script src="https://unpkg.com/d3@7.8.3/dist/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.0/nouislider.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.0/nouislider.css"/>    
+  <link rel="stylesheet" href="styles.css" />
+  <title>Effect of vaccination</title>
+</head>
+<body>
+  <div id="spinner"></div>
+  <div id="dropdown-box">
+    <div class="location-input">
+      <label for="location">Select Location:</label>
+      <select type="text" name="location" id="location"></select>
+    </div>
+    <div class="attribute-input">
+      <label for="attribute">Select Vaccinations:</label>
+      <select type="text" name="attribute" id="attribute"></select>
+    </div>
+  </div>
+  <div id="date-slider"></div>
+  <div id="main-chart"></div>
+  <script src="./main.js"></script>
+</body>
+</html>
